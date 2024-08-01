@@ -1,0 +1,60 @@
+name: coffeestore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flat_list: ^0.1.14
+  provider: ^6.0.0
+  page_view_dot_indicator: ^2.1.0
+  toast: ^0.3.0
+  flutter_share: ^2.0.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/recursos/imagens/cafedoponto.png
+    - lib/recursos/imagens/cafepilao.png
+    - lib/recursos/imagens/cafemelitta.png
+    - lib/recursos/imagens/cafe3coracoes.png
+    - lib/recursos/imagens/cafesantaclara.png
+    - lib/recursos/imagens/cafedelta.png
+    - lib/recursos/imagens/cafeiguacu.png
+    - lib/recursos/imagens/cafecaboclo.png
+    - lib/recursos/imagens/cafeutam.png
+    - lib/recursos/imagens/cafebrasileiro.png
+    - lib/recursos/imagens/cafedamasco.png
+    - lib/recursos/imagens/cafefazenda.png
+    - lib/recursos/imagens/cafebomdia.png
+    - lib/recursos/imagens/cafemineiro.png
+    - lib/recursos/imagens/cafeseleto.png
+    - lib/recursos/imagens/cafeuniao.png
+    - lib/recursos/imagens/cafemogiana.png
+    - lib/recursos/imagens/cafeflordeminas.png
+    - lib/recursos/imagens/cafebarao.png
+    - lib/recursos/imagens/cafecolonial.png
+    - lib/recursos/imagens/cafe1.jpeg
+    - lib/recursos/imagens/cafe2.jpeg
+    - lib/recursos/imagens/cafe3.jpeg
+    - lib/recursos/imagens/cafe4.jpeg
+    - lib/recursos/imagens/cafe5.jpeg
+    - lib/recursos/imagens/cafe6.jpeg
+    - lib/recursos/imagens/cafe7.jpeg
+    - lib/recursos/imagens/cafe8.jpeg
+    - lib/recursos/imagens/cafe9.jpeg
+    - lib/recursos/imagens/cafe10.jpeg
+    - lib/recursos/json/feed.json
+    - lib/recursos/json/comentarios.json
+    

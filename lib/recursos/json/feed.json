@@ -1,0 +1,584 @@
+{
+    "cafes": [
+        {
+          "_id": 1,
+          "datetime": "2019-11-01T12:00-0500",
+          "company": {
+            "name": "Café do Ponto",
+            "avatar": "cafedoponto.png"
+          },
+          "likes": 14,
+          "coffee": {
+            "name": "Café Tradicional",
+            "description": "Café do Ponto Tradicional é um café com sabor encorpado e marcante, ideal para qualquer momento do dia.",
+            "price": 10.0,
+            "url": "https://cafedoponto.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 2,
+          "datetime": "2019-11-02T12:00-0500",
+          "company": {
+            "name": "Café Pilão",
+            "avatar": "cafepilao.png"
+          },
+          "likes": 17,
+          "coffee": {
+            "name": "Café Extra Forte",
+            "description": "Café Pilão Extra Forte é um café intenso e encorpado, para quem gosta de um sabor mais forte.",
+            "price": 12.0,
+            "url": "https://cafepilao.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 3,
+          "datetime": "2019-11-03T12:00-0500",
+          "company": {
+            "name": "Café Melitta",
+            "avatar": "cafemelitta.png"
+          },
+          "likes": 10,
+          "coffee": {
+            "name": "Café Gourmet",
+            "description": "Café Melitta Gourmet é um café de alta qualidade, com grãos selecionados e um sabor suave e agradável.",
+            "price": 15.0,
+            "url": "https://melitta.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 4,
+          "datetime": "2019-11-04T12:00-0500",
+          "company": {
+            "name": "Café 3 Corações",
+            "avatar": "cafe3coracoes.png"
+          },
+          "likes": 20,
+          "coffee": {
+            "name": "Café Espresso",
+            "description": "Café 3 Corações Espresso é um café encorpado e aromático, perfeito para preparar um espresso em casa.",
+            "price": 18.0,
+            "url": "https://3coracoes.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 5,
+          "datetime": "2019-11-05T12:00-0500",
+          "company": {
+            "name": "Café Santa Clara",
+            "avatar": "cafesantaclara.png"
+          },
+          "likes": 23,
+          "coffee": {
+            "name": "Café Orgânico",
+            "description": "Café Santa Clara Orgânico é cultivado sem agrotóxicos, oferecendo um sabor puro e natural.",
+            "price": 20.0,
+            "url": "https://cafesantaclara.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 6,
+          "datetime": "2019-11-06T12:00-0500",
+          "company": {
+            "name": "Café Delta",
+            "avatar": "cafedelta.png"
+          },
+          "likes": 26,
+          "coffee": {
+            "name": "Café Moído",
+            "description": "Café Delta Moído é um café com moagem fina, ideal para métodos de preparo como coador e cafeteira.",
+            "price": 11.0,
+            "url": "https://cafedelta.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 7,
+          "datetime": "2019-11-07T12:00-0500",
+          "company": {
+            "name": "Café Iguaçu",
+            "avatar": "cafeiguacu.png"
+          },
+          "likes": 10,
+          "coffee": {
+            "name": "Café Solúvel",
+            "description": "Café Iguaçu Solúvel é prático e rápido de preparar, mantendo o sabor e aroma do café tradicional.",
+            "price": 9.0,
+            "url": "https://cafeiguacu.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 8,
+          "datetime": "2019-11-08T12:00-0500",
+          "company": {
+            "name": "Café Caboclo",
+            "avatar": "cafecaboclo.png"
+          },
+          "likes": 27,
+          "coffee": {
+            "name": "Café Torrado",
+            "description": "Café Caboclo Torrado é um café tradicional brasileiro, com sabor equilibrado e marcante.",
+            "price": 8.0,
+            "url": "https://cafecaboclo.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 9,
+          "datetime": "2019-11-09T12:00-0500",
+          "company": {
+            "name": "Café Utam",
+            "avatar": "cafeutam.png"
+          },
+          "likes": 17,
+          "coffee": {
+            "name": "Café Superior",
+            "description": "Café Utam Superior é um café de alta qualidade, com sabor encorpado e aroma intenso.",
+            "price": 14.0,
+            "url": "https://cafeutam.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 10,
+          "datetime": "2019-11-10T12:00-0500",
+          "company": {
+            "name": "Café Brasileiro",
+            "avatar": "cafebrasileiro.png"
+          },
+          "likes": 14,
+          "coffee": {
+            "name": "Café Extra Forte",
+            "description": "Café Brasileiro Extra Forte é um café com sabor intenso e marcante, perfeito para quem gosta de café forte.",
+            "price": 10.0,
+            "url": "https://cafebrasileiro.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 11,
+          "datetime": "2019-11-11T12:00-0500",
+          "company": {
+            "name": "Café Damasco",
+            "avatar": "cafedamasco.png"
+          },
+          "likes": 13,
+          "coffee": {
+            "name": "Café Tradicional",
+            "description": "Café Damasco Tradicional é um café com sabor suave e agradável, ideal para o dia a dia.",
+            "price": 10.0,
+            "url": "https://cafedamasco.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 12,
+          "datetime": "2019-11-12T12:00-0500",
+          "company": {
+            "name": "Café Fazenda",
+            "avatar": "cafefazenda.png"
+          },
+          "likes": 18,
+          "coffee": {
+            "name": "Café Especial",
+            "description": "Café Fazenda Especial é um café de alta qualidade, com grãos selecionados e sabor marcante.",
+            "price": 20.0,
+            "url": "https://cafefazenda.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 13,
+          "datetime": "2019-11-13T12:00-0500",
+          "company": {
+            "name": "Café Bom Dia",
+            "avatar": "cafebomdia.png"
+          },
+          "likes": 13,
+          "coffee": {
+            "name": "Café Matinal",
+            "description": "Café Bom Dia Matinal é perfeito para começar o dia, com sabor suave e agradável.",
+            "price": 8.0,
+            "url": "https://cafebomdia.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe3.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 14,
+          "datetime": "2019-11-14T12:00-0500",
+          "company": {
+            "name": "Café Mineiro",
+            "avatar": "cafemineiro.png"
+          },
+          "likes": 19,
+          "coffee": {
+            "name": "Café Gourmet",
+            "description": "Café Mineiro Gourmet é um café de alta qualidade, com sabor encorpado e aroma intenso.",
+            "price": 15.0,
+            "url": "https://cafemineiro.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe4.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 15,
+          "datetime": "2019-11-15T12:00-0500",
+          "company": {
+            "name": "Café Seleto",
+            "avatar": "cafeseleto.png"
+          },
+          "likes": 24,
+          "coffee": {
+            "name": "Café Extra Forte",
+            "description": "Café Seleto Extra Forte é um café intenso e encorpado, ideal para quem gosta de um sabor mais forte.",
+            "price": 12.0,
+            "url": "https://cafeseleto.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe5.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 16,
+          "datetime": "2019-11-16T12:00-0500",
+          "company": {
+            "name": "Café União",
+            "avatar": "cafeuniao.png"
+          },
+          "likes": 24,
+          "coffee": {
+            "name": "Café Tradicional",
+            "description": "Café União Tradicional é um café com sabor equilibrado e marcante, perfeito para qualquer momento do dia.",
+            "price": 10.0,
+            "url": "https://cafeuniao.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe6.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 17,
+          "datetime": "2019-11-17T12:00-0500",
+          "company": {
+            "name": "Café Mogiana",
+            "avatar": "cafemogiana.png"
+          },
+          "likes": 22,
+          "coffee": {
+            "name": "Café Superior",
+            "description": "Café Mogiana Superior é um café de alta qualidade, com sabor encorpado e aroma intenso.",
+            "price": 14.0,
+            "url": "https://cafemogiana.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe7.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 18,
+          "datetime": "2019-11-18T12:00-0500",
+          "company": {
+            "name": "Café Flor de Minas",
+            "avatar": "cafeflordeminas.png"
+          },
+          "likes": 21,
+          "coffee": {
+            "name": "Café Orgânico",
+            "description": "Café Flor de Minas Orgânico é cultivado sem agrotóxicos, oferecendo um sabor puro e natural.",
+            "price": 20.0,
+            "url": "https://cafeflordeminas.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe8.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 19,
+          "datetime": "2019-11-19T12:00-0500",
+          "company": {
+            "name": "Café Barão",
+            "avatar": "cafebarao.png"
+          },
+          "likes": 20,
+          "coffee": {
+            "name": "Café Especial",
+            "description": "Café Barão Especial é um café de alta qualidade, com grãos selecionados e sabor marcante.",
+            "price": 20.0,
+            "url": "https://cafebarao.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe9.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                }
+            ]
+          }
+        },
+        {
+          "_id": 20,
+          "datetime": "2019-11-20T12:00-0500",
+          "company": {
+            "name": "Café Colonial",
+            "avatar": "cafecolonial.png"
+          },
+          "likes": 37,
+          "coffee": {
+            "name": "Café Tradicional",
+            "description": "Café Colonial Tradicional é um café com sabor equilibrado e marcante, perfeito para qualquer momento do dia.",
+            "price": 10.0,
+            "url": "https://cafecolonial.com.br/",
+            "blobs": [
+                {
+                    "type": "image",
+                    "file": "cafe10.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe1.jpeg"
+                },
+                {
+                    "type": "image",
+                    "file": "cafe2.jpeg"
+                }
+            ]
+          }
+        }
+    ]
+}
